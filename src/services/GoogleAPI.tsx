@@ -1,9 +1,5 @@
 import axios from 'axios';
 
-export type GoogleAPIResponse = {
-  
-};
-
 export const GoogleAPI = axios.create({
-  baseURL: '',
+  baseURL: 'https://www.googleapis.com/books/v1/volumes',
 });
